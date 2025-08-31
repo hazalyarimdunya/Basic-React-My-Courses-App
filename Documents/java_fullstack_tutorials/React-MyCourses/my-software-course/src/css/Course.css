@@ -1,0 +1,22 @@
+
+.course-main {
+  display: flex;
+  flex-wrap: wrap; /* Alt satıra geçmesini sağlar */
+  gap: 20px;       /* Elemanlar arası boşluk */
+  margin: 20px 150px;
+}
+
+.course-list {
+  flex: 1 1 calc(33.333% - 20px); /* 3 sütun */
+  box-sizing: border-box;
+  background:  rgb(164, 223, 205);
+  padding: 20px;
+  text-align: center;
+}
+.course-list a{
+    text-decoration: none;
+    color: rgb(20, 139, 113);
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
